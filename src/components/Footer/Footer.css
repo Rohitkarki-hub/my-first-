@@ -1,0 +1,66 @@
+
+.footer {
+  background: rgb(14, 14, 14);
+  height: auto;
+  width: 100vw;
+  padding-top: 20px;
+  color: white;
+  
+  position:relative;
+  overflow: hidden;
+ 
+
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  margin: 2000ps;
+  
+}
+.col
+{
+ 
+  justify-content: center;
+}
+.list-unstyled{
+  list-style: none;
+  justify-content: center;
+ 
+  margin-right: 80px;
+}
+
+.list-unstyled:hover
+{
+  color :red;
+}
+
+@media screen and (max-width:600px){
+  .row{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .footer{
+    position: relative;
+  }
+}
+
+
+a:link{
+  text-decoration: none;
+}
+
+.list-unstyled li a:hover{
+  color :red;
+}
+.list-unstyled li a{
+  color: white;
+}

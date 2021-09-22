@@ -1,0 +1,171 @@
+.imageContainer{
+    
+    min-height: 100vh;
+    width:100vw;
+    position: relative;
+}
+.imageContainer img{    
+    width: 100vw;
+    height: 90vh;
+}
+Button
+{
+border-color: rgb(0, 0, 0);
+
+height: 40px;
+width :200px
+}
+.btn 
+{
+    color: rgb(0, 0,0 );
+    font-weight: bold;
+}
+
+
+.image-heading{
+    position: absolute;
+    color: white;
+    top: 40%;
+}
+p.image-heading {
+    top :60%;
+    margin-left: 80px;
+}
+.btn3{
+    position: absolute;
+    right :82%;
+    top :70%;
+}
+
+
+@media screen and (max-width: 1024px){
+    .image-heading{
+        position: absolute;
+        color: white;
+        top: 30%;
+    }
+    p.image-heading {
+        top :40%;
+        margin-left: 80px;
+    }
+    .btn3{
+        position: absolute;
+        right :73%;
+        top :45%;
+        
+    }
+    .imageContainer img{
+    
+        width: 100vw;
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 868px){
+    .imageContainer{
+        position: inherit;
+    }
+    .image-heading{
+        position:inherit;
+        color: black;
+        margin-top: 0%;
+        
+    }
+    .btn3{
+        position:inherit;
+        background: black;
+        margin-left: 80px;
+        margin-top :20px;
+        margin-bottom: 20px;
+    }
+    .btn 
+    {
+    border :white;        
+    color: rgb(241, 228, 228);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .imageContainer img{
+    
+        width: 100vw;
+        height: 60vh;
+    }
+    .catogery-btn{
+        color: black;
+        background: red;
+        position: absolute;
+        right :72%;
+        top :80%;
+    
+    }
+    
+}
+
+.grid-container {
+    display: grid;
+  grid-gap:10px ;
+  grid-template-columns: auto auto ;
+  
+  
+  }
+
+.sub-imageContainer{
+    
+    position: relative;
+   
+}
+.sub-imageContainer img{
+    width: 49.5vw;
+    height: 60vh;
+}
+.catogery-btn{
+    color: black;
+   
+    position: absolute;
+    right :72%;
+    top :80%;
+
+}
+@media screen and (max-width: 1366px){
+    .grid-container {
+        display: inherit;
+            
+      
+      }
+    .sub-imageContainer{
+        margin-top: -60px;
+        min-height: 100vh;
+        width:100vw;
+        position: relative;
+    }
+    .sub-imageContainer img{
+    width: 100vw;
+    height: 90vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.submouse-imageContainer{
+    margin-top: -42.5%;
+    margin-left: 50.5%;
+    min-height: 50vh;
+    width:50%;
+    position: relative;
+}
+.submouse-imageContainer img{
+    width: 49.5vw;
+    height: 90vh;
+}*/
